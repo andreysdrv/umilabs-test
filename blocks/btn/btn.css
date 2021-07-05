@@ -1,0 +1,48 @@
+.btn {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #E54137;
+  width: 100%;
+  min-height: 64px;
+  background-color: #fff;
+  border: 1px solid #E4E7EB;
+  margin-top: 40px;
+  background-image: url(../../img/burger.svg);
+  background-repeat: no-repeat;
+  background-position: 41% 50%;
+  transition: .3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #E4E7EB
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    font-size: 12px;
+    background-position: 40% 48%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    font-size: 12px;
+    background-position: 36% 48%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .btn {
+    font-size: 12px;
+    background-position: 32% 48%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .btn {
+    font-size: 12px;
+    background-position: 18% 48%;
+  }
+}

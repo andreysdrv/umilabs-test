@@ -1,0 +1,13 @@
+.page {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  max-width: 1170px;
+  width: 100%;
+  margin: 77px auto 102px auto;
+}
+
+@media screen and (max-width: 1180px) {
+  .page {
+    max-width: 87.5%;
+  }
+}

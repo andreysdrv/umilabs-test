@@ -1,0 +1,15 @@
+.cards__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  min-height: 270px;
+}
+
+@media screen and (max-width: 425px) {
+  .cards__image {
+    min-height: 136px;
+  }
+}
